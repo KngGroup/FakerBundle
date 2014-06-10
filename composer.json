@@ -1,0 +1,26 @@
+{
+    "name": "bydm/faker-bundle",
+    "type": "symfony-bundle",
+    "keywords": ["fixtures"],
+    "description": "Symfony2 bundle for faker library",
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/framework-bundle": "~2.1",
+        "fzaninotto/faker": "~1.5"
+    },
+    "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "~2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Bykov",
+            "email": "dmitry.bykov@sibers.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "ByDm\\FakerBundle": "" }
+    },
+    "target-dir": "ByDm/FakerBundle",
+    "minimum-stability": "beta"
+}

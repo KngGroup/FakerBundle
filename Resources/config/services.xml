@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<container xmlns="http://symfony.com/schema/dic/services"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://symfony.com/schema/dic/services http://symfony.com/schema/dic/services/services-1.0.xsd">
+    
+    <parameters>
+        <parameter key="by_dm_faker.factory_class">Faker\Factory</parameter>
+        <parameter key="by_dm_faker.class">Faker\Generator</parameter>
+        <parameter key="by_dm_faker.populator_class">Faker\ORM\Doctrine\Populator</parameter>
+    </parameters>
+
+</container>
